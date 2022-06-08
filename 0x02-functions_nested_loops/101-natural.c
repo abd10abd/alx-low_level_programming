@@ -1,24 +1,27 @@
+#include "main.h"
 #include <stdio.h>
+#include <math.h>
 
 /**
- * main - main block
- * Description: Print the sum of even Fibonacci numbers up to a fib value
- * not exceeding 4,000,000.
+ *main - main block
+ * Description: Print the sum of all multiples of 3 or 5 below 1024.
  * Return: 0
  */
 int main(void)
 {
-	int i = 1, j = 2, total = 0;
-	int k;
+	int i = 1;
+	int total = 0;
 
-	while (j < 4000000)
+	while (i < 1024)
 	{
-		if (j % 2 == 0)
-			total += j;
-		k = j;
-		j += i;
-		i = k;
+		if (i % 3 == 0)
+			total += i;
+		else if (i % 5 == 0)
+			total += i;
+
+		i++;
 	}
 	printf("%d\n", total);
+
 	return (0);
 }
