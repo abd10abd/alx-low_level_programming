@@ -6,7 +6,6 @@
  * Return: 1 if uppercase, else 0
  */
 int _isupper(int c)
-int main ()
 {
 	if (c > 64 && c < 91)
 		return (1);
