@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- *  * simple_print_buffer - prints buffer in hexa
- *   * @buffer: the address of memory to print
- *    * @size: the size of the memory to print
- *     *
- *      * Return: Nothing.
+ * simple_print_buffer - prints buffer in hexa
+ * @buffer: the address of memory to print
+ * @size: the size of the memory to print
+ *
+ * Return: Nothing.
  */
 void simple_print_buffer(char *buffer, unsigned int size)
 {
@@ -29,9 +29,9 @@ void simple_print_buffer(char *buffer, unsigned int size)
 }
 
 /**
- *  * main - check the code
- *   *
- *    * Return: Always 0.
+ * main - check the code
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
